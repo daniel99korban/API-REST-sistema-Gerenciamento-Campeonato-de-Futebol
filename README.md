@@ -5,7 +5,7 @@ validations no dto
 input/ClienteRequest.java
 output/ClienteResponse.java
 <!-- 
-// usarmapping, e mapper uma dependencia externa para o dto(expor apenas algumas informações)
+// usarmapping, e mapper(exemplo adapter, @component) uma dependencia externa para o dto(expor apenas algumas informações)
 
 bivalidation dependencia para validação tratar validation nos dtos ex.: @NotBlank 
 
