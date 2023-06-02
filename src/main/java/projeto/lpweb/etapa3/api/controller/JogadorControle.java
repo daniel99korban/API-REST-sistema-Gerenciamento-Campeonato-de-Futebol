@@ -25,6 +25,7 @@ public class JogadorControle {
     }
     
     @GetMapping
+    // ResponseEntity<Jogador>
     public List<Jogador> listarJogadores(){
         return service.listarTodos();
     }
