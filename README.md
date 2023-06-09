@@ -40,4 +40,6 @@ como atualizar o cache em post colocar @CacheEvict(value = "ListaDeCidades, allE
 sweger
 2 dependencias
 Paginação:
+em service metodo findAll(Pageble page)
+PageRequest page = PageRequest.of(numPagina, qtdPagina)// apenas um exemplo simples
 -->
