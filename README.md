@@ -42,4 +42,5 @@ sweger
 Paginação:
 em service metodo findAll(Pageble page)
 PageRequest page = PageRequest.of(numPagina, qtdPagina)// apenas um exemplo simples
+return service.buscaPaginada(page)
 -->
