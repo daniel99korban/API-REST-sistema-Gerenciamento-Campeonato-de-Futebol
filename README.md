@@ -22,5 +22,8 @@ dto/output
   exemploResponse.java
 
 cache: feito a nivel de serviços
-é aplicada com biblioteca
+é aplicada com biblioteca, porem o spring tem uma spring-boot-start-cache
+colocar @EnableCaching na Main para habiltar
+no controller @cacheble(value="ListaDeCidades")// exemplo
+como atualizar o cache em post colocar @CacheEvict(value = "ListaDeCidades, allEllEntries = true)
 -->
