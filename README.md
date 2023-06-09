@@ -14,6 +14,14 @@ fica em config/ModelMapperConfig.java
 bivalidation dependencia para validação tratar validation nos dtos ex.: @NotBlank 
 
 ver jackson e swagger do spring
+-------------------------
+api
+  execptionHandler
+  mapper
+config
+  ModelMapperConfig.java
+  SwaggerConfig.java//pedir pro jpt gerar ele
+-------------------
 pasta onde fica o dto
 api/dto
 pastas dentro do dto
@@ -29,4 +37,5 @@ no controller @cacheble(value="ListaDeCidades")// exemplo
 como atualizar o cache em post colocar @CacheEvict(value = "ListaDeCidades, allEllEntries = true)
 sweger
 2 dependencias
+
 -->
