@@ -20,7 +20,7 @@ api
   mapper
 config
   ModelMapperConfig.java
-  SwaggerConfig.java//pedir pro jpt gerar ele
+  SwaggerConfig.java //pedir pro jpt gerar ele
 -------------------
 pasta onde fica o dto
 api/dto
